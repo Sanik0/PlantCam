@@ -144,11 +144,10 @@
 
         <!-- ===================inspect for diseases=================== -->
 
-        <div class="inspect-diseases">
+        <div class="inspect-diseases" id="cameraButton">
+            <input type="file" id="cameraInput" accept="image/*" capture="environment" style="display: none;" >
             <div class="heading poppins-regular">
                 Inspect for diseases
-                <input type="file" id="cameraInput" accept="image/*" capture="environment" style="display: none;">
-
             </div>
 
             <div class="container-20">
@@ -189,14 +188,14 @@
 
     <!-- ===================camera btn=================== -->
 
-    <div class="camera-btn">
+    <div class="camera-btn" id="cameraButton">
         <span class="material-symbols-outlined">
             add_a_photo
         </span>
-        <input type="file" id="cameraInput" accept="image/*" capture="environment" >
+        <input type="file" id="cameraInput" accept="image/*" capture="environment" style="display: none;" >
     </div>
 
-    <!-- ===================camera btn=================== -->
+    <!-- ===================navigation=================== -->
 
     <div class="navigation">
 
@@ -232,6 +231,6 @@
 
         
 
-    
+    <script src="script.js"></script>
 </body>
 </html>
